@@ -7,9 +7,6 @@ public class Main {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
-//        Calendar calendar = new Calendar();
-//        calendar.calcDays();
-
         Car car = new Car("Ferrari", "488 Italia", 320.8f, 200.24f);
         car.refuelToFull();
         car.increaseMaximumSpeed(324.55f);
